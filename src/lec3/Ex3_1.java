@@ -14,10 +14,10 @@ public class Ex3_1 {
         try {
             x = System.in.read();
         } catch (IOException e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
-        char c = (char) x;
-        System.out.println("Код символа " + c + " : " + x);
+
+        System.out.printf("Код символа %C : %d", x,x );
 
         /*Enter a symbol:
         ф
