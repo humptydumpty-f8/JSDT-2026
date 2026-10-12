@@ -12,6 +12,6 @@ public class  Ex5_1 {
         char ch='j';//106
 
         System.out.println("Expression type:");
-        System.out.println(((Object)(ch+i++/ch)).getClass().getName());
+        System.out.println(((Object)(ch*d+i++/ch)).getClass().getName());
     }
 }

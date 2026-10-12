@@ -6,7 +6,7 @@ package lec4;
 public class Ex4_2 {
     public static void main(String[] args) {
 
-        double numDouble = 129;
+        double numDouble = 9812;
         System.out.println("Double number:" + numDouble);
 
         System.out.println("To byte: " + (byte) numDouble);//To byte: -96

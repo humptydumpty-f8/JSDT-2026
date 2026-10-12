@@ -16,13 +16,15 @@ public class Ex4_1 {
         System.out.println("Integer number:" + numInteger);
 
         //Неявне приведення char до цілих числових типів
-        long numLong = '\u2654' ;
+        long numLong = '\u2654' ;//9812
         System.out.println("Long number:" + numLong);
 
         //Явне приведення цілих числових типів до char
-        System.out.println("Char:" + (char)104);
+        System.out.println("Char:" + (char)9812);
 
         //Числові типи даних не сумісні з boolean, а char і boolean не сумісні між собою
+//        boolean numBoolean = true;
+//        char numChar = 'F';
 //        System.out.println("Integer number:" + (int)numBoolean);//Помилка компіляції!
 //        System.out.println("Boolean number:" + (boolean)numChar);//Помилка компіляції!
     }
