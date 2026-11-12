@@ -65,7 +65,7 @@ public class Ex3_1 {
         byte i=10;
         child.test(i); //виклик test(int)
         child.test(i,i); //виклик test(int,int)
-        child.test(i+0.);//виклик test(double)
+        System.out.println(child.test(i+0.));//виклик test(double)
 
     }
 }
